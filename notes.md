@@ -12,3 +12,9 @@
 ## Component Tree
 
  ![Component Tree](/img-resources/component-tree.jpg)
+
+## UI - in component hierarchy
+ ![UI-REFACTOR](/img-resources/UI-refactor.jpg)
+
+## Component Tree Refactor
+ ![Component Tree Refactor](/img-resources/component-tree-refactor.jpg)
