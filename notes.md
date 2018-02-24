@@ -5,6 +5,8 @@
 
   * _this has been a difficult section, I have been thinking solely of functionality and nothing of layout. It took far longer  than expected to get even the first draft done. I would like to have something less conventional, but will work with this layout for now. It will work for setting up and housing all the logic..._
 
+  * spending the remainder of the day working on getting xcode up and running and looking at the ReactNative Docs.
+
 
 ## UI
  ![UI](/img-resources/rough-draft.jpg)
