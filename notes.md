@@ -22,4 +22,20 @@
  ![Component Tree Refactor](/img-resources/component-tree-refactor.jpg)
 
 ## second Friday work notes
-  * filling out components to be stateless and have hard coded values 
+  * filling out components to be stateless and have hard coded values
+
+
+## Resources:
+  * https://gokhalemethod.com
+  * https://www.foundationtraining.com
+  * https://www.nwfootankle.com
+
+
+## tools
+    * www.handmasterplus.com
+    * amazon.com
+      * wenfeng workout bands
+      * calf stretching board --serius strong
+      * ergonomic keyboard microsoft
+      * anker ergonomic mouse
+      * therapy bands --sport ppl
