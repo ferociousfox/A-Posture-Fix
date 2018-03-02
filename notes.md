@@ -20,3 +20,6 @@
 
 ## Component Tree Refactor
  ![Component Tree Refactor](/img-resources/component-tree-refactor.jpg)
+
+## second Friday work notes
+  * filling out components to be stateless and have hard coded values 
