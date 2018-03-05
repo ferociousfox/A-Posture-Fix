@@ -5,7 +5,19 @@ import Setup from './Setup';
 import Examples from './Examples';
 import Resources from './Resources';
 
-function UIContainer(){
+
+class UIContainer extends React.component {
+  constructor(props){
+    super(props);
+    this.state = {
+      masterActivityList: {}
+    };
+    this.handleAddingNewActivity = this.handleAddingNewActivity.bind(this);
+  }
+
+  handleAddingNewActivity(newActivity){
+
+  }
   return(
     <div>
       <Switch>
