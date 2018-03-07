@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Nav(){
   const linkDecoration = {
@@ -9,10 +10,10 @@ function Nav(){
   };
   return(
     <div className='nav'>
-      <Link style={linkDecoration} to='/'><a>Program</a></Link>
-      <Link style={linkDecoration} to='/setup'><a>Setup</a></Link>
-      <Link style={linkDecoration} to='/examples'><a>Examples</a></Link>
-      <Link style={linkDecoration} to='/resources'><a>Resources</a></Link>
+      <Link style={linkDecoration} to='/'>Program</Link>
+      <Link style={linkDecoration} to='/setup'>Setup</Link>
+      <Link style={linkDecoration} to='/examples'>Examples</Link>
+      <Link style={linkDecoration} to='/resources'>Resources</Link>
       <style jsx>{`
         a:hover {
           color: crimson;

@@ -76,7 +76,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template:'template.ejs',
       appMountId: 'react-app-root',
-      title: 'React Taproom',
+      title: 'A Posture Fix',
       filename: resolve(__dirname, "build", "index.html"),
     }),
   ]

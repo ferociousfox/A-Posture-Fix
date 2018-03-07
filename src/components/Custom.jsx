@@ -1,7 +1,11 @@
 import React from 'react';
 
 function Custom(){
-  return();
+  return(
+    <div>
+
+    </div>
+  );
 }
 
 export default Custom;

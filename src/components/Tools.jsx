@@ -1,7 +1,11 @@
 import React from 'react';
 
 function Tools(){
-  return();
+  return(
+    <div>
+
+    </div>
+  );
 }
 
 export default Tools;
