@@ -8,7 +8,7 @@ function Presets(props){
       <h3>{props.name}</h3>
       <h4>{props.purpose}</h4>
       <h5>{props.duration}</h5>
-      <p>{props.requiredEquipment}</p>
+      <p>Required Equipment: {props.requiredEquipment}</p>
       <p>{props.description}</p>
       <p><em>{props.pitfalls}</em></p>
       <button onClick={() => props.onAddingNewActivity(props.id)}>Add Activity</button>

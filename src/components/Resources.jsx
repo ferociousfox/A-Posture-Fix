@@ -10,6 +10,7 @@ function Resources(){
         <Hero heroImage={posture} />
         <Nav/>
       </div>
+      <h1>For more Info on Great Posture, Take a Look At these Great Sites</h1>
       <ul>
         <li><a href="https://gokhalemethod.com">The Gokhale Method</a></li>
         <li><a href="https://www.foundationtraining.com">Foundation Training</a></li>

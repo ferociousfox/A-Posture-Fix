@@ -11,6 +11,7 @@ function Examples(){
       <div>
         <Hero heroImage={posture} />
         <Nav/>
+        <h1>Here are some Examples of Great Posture</h1>
       </div>
       <Tools/>
     </div>

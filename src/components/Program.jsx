@@ -6,18 +6,27 @@ import posture from '../assets/images/evolve.jpg';
 import ActivityList from './ActivityList';
 
 function Program(props){
-  console.log(props.userActivityList);
-  console.log(props.activityList);
   return(
     <div>
       <div>
         <Hero heroImage={posture} />
         <Nav/>
       </div>
-      <h1>Welcome, lets fix that thing you call your back and neck!</h1>
-      <ActivityList
-        userActivityList={props.userActivityList}
-        activityList={props.activityList} />
+      <h1>Your Program</h1>
+      <div className='flex-container'>
+        <ActivityList
+          userActivityList={props.userActivityList}
+          activityList={props.activityList} />
+      </div>
+      <style jsx>{`
+        .flex-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify content: space-around;
+          flex-direction: column;
+          margin: 30px;
+        }
+      `}</style>
     </div>
   );
 }

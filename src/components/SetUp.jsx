@@ -12,6 +12,7 @@ function SetUp(props){
       <div>
         <Hero heroImage={posture} />
         <Nav/>
+        <h1>Chose Activities for Your Program</h1>
       </div>
       <div className='flex-container'>
         {Object.keys(props.activityList).map(function(activityId, key) {
@@ -31,7 +32,6 @@ function SetUp(props){
       <style jsx>{`
         .flex-container {
           display: flex;
-          flex-wrap: wrap;
           justify content: space-around;
           flex-direction: column;
           margin: 30px;

@@ -15,13 +15,11 @@ class App extends React.Component {
       userActivities: []
     };
     this.handleAddingNewActivity = this.handleAddingNewActivity.bind(this);
-    console.log(this.state);
   }
 
   handleAddingNewActivity(activityId){
     let newUserActivities = this.state.userActivities;
     newUserActivities.push(activityId);
-    console.log(newUserActivities);
     this.setState({userActivities: newUserActivities});
 
 

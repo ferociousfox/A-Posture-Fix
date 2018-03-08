@@ -4,15 +4,19 @@ import PropTypes from 'prop-types';
 
 function Activity(props){
   const { name, purpose, duration, requiredEquipment, description, pitfalls } = props.activityList;
-  console.log(props.activityList);
   return(
-    <div>
+    <div className='flex-card'>
       <h3>{name}</h3>
       <h4>{purpose}</h4>
       <h5>{duration}</h5>
-      <p>{requiredEquipment}</p>
+      <p>Required Equipment: {requiredEquipment}</p>
       <p>{description}</p>
       <p><em>{pitfalls}</em></p>
+      <style jsx>{`
+        .flex-card {
+          padding-top: 20px;
+        }
+      `}</style>
     </div>
   );
 }
