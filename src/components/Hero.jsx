@@ -8,8 +8,8 @@ function Hero(props){
     <div className='hero'>
       <style jsx>{`
         .hero {
-          height: 600px;
-          background-posistion: center;
+          height: 450px;
+          background-position: center;
           background-size: cover;
           background-image: url(${props.heroImage})
         }

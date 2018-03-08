@@ -3,25 +3,22 @@ import PropTypes from 'prop-types';
 
 
 function Activity(props){
+  const { name, purpose, duration, requiredEquipment, description, pitfalls } = props.activityList;
+  console.log(props.activityList);
   return(
     <div>
-      <h3>{props.name}</h3>
-      <h4>{props.purpose}</h4>
-      <h5>{props.duration}</h5>
-      <p>{props.requiredEquipment}</p>
-      <p>{props.description}</p>
-      <p><em>{props.pitfalls}</em></p>
+      <h3>{name}</h3>
+      <h4>{purpose}</h4>
+      <h5>{duration}</h5>
+      <p>{requiredEquipment}</p>
+      <p>{description}</p>
+      <p><em>{pitfalls}</em></p>
     </div>
   );
 }
 
 Activity.propTypes = {
-  name: PropTypes.string,
-  purpose: PropTypes.string,
-  duration: PropTypes.string,
-  requiredEquipment: PropTypes.string,
-  description: PropTypes.string,
-  pitfalls: PropTypes.string
+  activityList: PropTypes.object,
 };
 
 export default Activity;

@@ -28,11 +28,25 @@ class App extends React.Component {
   }
   render(){
     return(
-
       <div>
+        <style global jsx>{`
+          html, body, h1, h2, h3, p, ul, li{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            list-style: none;
+          }
+          body{
+            background-color: #f3f4f6;
+            text-align: center;
+          }
+      `}</style>
         <Switch>
           <Route exact path='/' render={() =>
-            <Program userActivityList={this.state.userActivities} /> }/>
+            <Program
+              userActivityList={this.state.userActivities}
+              activityList={this.state.activitiesById}/> }/>
           <Route path='/setup' render={() =>
             <SetUp
               activityList={this.state.activitiesById}

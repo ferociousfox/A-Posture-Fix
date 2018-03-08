@@ -11,9 +11,10 @@ function Resources(){
         <Nav/>
       </div>
       <ul>
-        <li></li>
-        <li></li>
-        <li>...</li>
+        <li><a href="https://gokhalemethod.com">The Gokhale Method</a></li>
+        <li><a href="https://www.foundationtraining.com">Foundation Training</a></li>
+        <li><a href="https://www.movnat.com">Movnat</a></li>
+
       </ul>
     </div>
   );
